@@ -4,6 +4,6 @@ import hashlib
 
 o=input("your Text -> ")
 
-g=hashlib.sha1(f"b"{o} "").hexdigest()
+g=hashlib.sha1(b"{}".format(o).hexdigest()
 
-print(f"your hash -> {g}"
+print(f"your hash -> {g}")
