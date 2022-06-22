@@ -4,7 +4,7 @@ import hashlib
 
 o=str(input("your Text -> "))
 
-g=hashlib.sha1(o).hexdigest()
+g=hashlib.sha1(b'{}').format(o).hexdigest()
 
 ft=len(g)
 
