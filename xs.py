@@ -1,6 +1,13 @@
 import hashlib 
 
+import python
+
+import os
+
+
 #--------------
+os.system('clear')
+#---------------
 
 o=str(input("your Text -> "))
 
