@@ -2,9 +2,9 @@ import hashlib
 
 #--------------
 
-o=input("your Text -> ")
+o=str(input("your Text -> "))
 
-g=hashlib.sha1(b"{}".format(o)).hexdigest()
+g=hashlib.sha1(o).hexdigest()
 
 ft=len(g)
 
