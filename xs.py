@@ -1,20 +1,10 @@
-import hashlib 
-
-import python
-
+import base64
+#----------------
 import os
-
-
-#--------------
 os.system('clear')
-#---------------
+#----------------
+txt=input('TXT:  ')
 
-o=str(input("your Text -> "))
+has1=base64.a85decode(txt)
 
-g=hashlib.sha1(b'{}').format(o).hexdigest()
-
-ft=len(g)
-
-print(f"number of symbols -> {ft}")
-
-print(f"your hash -> {g}")
+print(has1)
